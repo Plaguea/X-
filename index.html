@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mini Social</title>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+
+<h2>Mini Social Feed</h2>
+
+<input id="username" placeholder="Your username">
+<button onclick="login()">Login</button>
+
+<div>
+  <textarea id="postContent" placeholder="Write a post"></textarea>
+  <button onclick="createPost()">Post</button>
+</div>
+
+<h3>Feed</h3>
+<div id="feed"></div>
+
+<script src="main.js"></script>
+</body>
+</html>
